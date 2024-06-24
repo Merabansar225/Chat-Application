@@ -1,8 +1,8 @@
-This README file contains the instructions for how to run the ChatApplication (good usability app) and the ChatApp2 (poor usability app).
+This README file contains the instructions for how to run the ChatApplication.
 
 # ChatApplication - My Social App
 
-This is the good usability application that was created for this MSc Project.
+This is the application that was created for my MSc Project.
 
 ## PACKAGES AND CLASSES OVERVIEW
 - controllers: This package contains all controller classes which handle incoming HTTP requests, and correspond to specific operations:
