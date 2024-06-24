@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.bg-blue {
+	background: radial-gradient(circle at center, #2e6c85 0%, #b9e2f0 70%);
+}
+
+
+.container {
+    border: 2px solid #2e6c85;
+    padding: 20px; 
+    margin: 50px auto; 
+    border-radius: 15px; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+    background-color: white; 
+    max-width: 600px; 
+}
+
+.header {
+    background-color: #2e6c85;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-top-left-radius: 12px; 
+    border-top-right-radius: 12px;  
+}
+
+.info {
+	padding: 30px; 
+	margin: 10px auto; 
+	max-width: 600px; 
+}
+
+a {
+    color: #2e6c85; 
+}
+
+a:hover {
+    color: #365899; 
+}
+.messageButton {
+	text-align: left; 
+	margin-bottom: 5px;
+	background-color: #2e8cab;
+	color: #e4eff2;
+}
+
+.messageButton:hover,
+.messageButton:focus {
+    background-color: #ADD8E6;
+    color: #1a5569;
+    text-shadow: 2px 2px 4px #5196ad;
+}
+
+.userButton {
+	text-align: left; 
+	margin-bottom: 5px;
+	background-color: #2e8cab;
+	color: #e4eff2;
+}
+
+.userButton:hover,
+.userButton:focus {
+    background-color: #ADD8E6;
+    color: #1a5569;
+    text-shadow: 2px 2px 4px #5196ad;
+}
